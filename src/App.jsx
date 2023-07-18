@@ -2,8 +2,7 @@ import { useState } from 'react'
 
 
 import Sidenav from './Components/Sidenav'
-import mainPG from './Components/mainPG'
-
+import 
 function App() {
   
 
@@ -11,6 +10,7 @@ function App() {
     <>
       <Sidenav />
       <mainPG />
+
     </>
   )
 }
