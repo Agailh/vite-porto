@@ -1,8 +1,9 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 
 
 import Sidenav from './Components/Sidenav'
-import mainPG from './Components/mainPG'
+import Home from './Components/Home'
+
 
 function App() {
   
@@ -10,7 +11,7 @@ function App() {
   return (
     <>
       <Sidenav />
-      <mainPG />
+      <Home />
 
     </>
   )

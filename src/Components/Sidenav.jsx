@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import {AiOutlineHome, AiOutlineMail, AiOutlineMenu, AiOutlineProject} from "react-icons/ai"
 import {GrProjects} from 'react-icons/gr'
 import {BsPerson} from 'react-icons/bs'
