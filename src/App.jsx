@@ -3,6 +3,7 @@
 
 import Sidenav from './Components/Sidenav'
 import Home from './Components/Home'
+import Work from './Components/Work'
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <>
       <Sidenav />
       <Home />
+      <Work />
 
     </>
   )
