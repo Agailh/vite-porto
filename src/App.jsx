@@ -4,6 +4,7 @@
 import Sidenav from './Components/Sidenav'
 import Home from './Components/Home'
 import Work from './Components/Work'
+import Projects from './Components/Projects'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Sidenav />
       <Home />
       <Work />
+      <Projects />
 
     </>
   )
