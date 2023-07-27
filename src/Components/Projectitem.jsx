@@ -2,9 +2,9 @@
 
 const Projectitem = ({img, title}) => {
   return (
-    <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-[#16161a]  group hover:bg-gradient-to-r from-[#242629] to bg-[#16161a] ">
+    <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-black  group hover:bg-gradient-to-r from-[#242629] to bg-[#16161a] ">
       <div className="py-5 px-5">
-        <img src={img} className="rounded-xl group group-hover:opacity-10" alt='/' />
+        <img src={img} className="rounded-sm group group-hover:opacity-10" alt='/' />
         <div className="hidden group-hover:block absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] ">
             <h3 className="text-2xl font-bold text-white tracking-wider text-center">
                 {title}
