@@ -24,13 +24,13 @@ const Sidenav = () => {
                         <MdWork size={20} />
                         <span className='pl-4'>Work</span>
                     </a>
-                    <a onClick={handleNav} href='#project' className='w-[75%] flex justify-center items-center rounded-lg bg-[#7f5af0]  m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200 text-[#fffffe]'>
-                        <AiOutlineProject size={20} />
-                        <span className='pl-4'>Project</span>
-                    </a>
                     <a onClick={handleNav} href='#main' className='w-[75%] flex justify-center items-center rounded-lg bg-[#7f5af0]  m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200 text-[#fffffe]'>
                         <BsPerson size={20} />
                         <span className='pl-4'>Resume</span>
+                    </a>
+                    <a onClick={handleNav} href='#project' className='w-[75%] flex justify-center items-center rounded-lg bg-[#7f5af0]  m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200 text-[#fffffe]'>
+                        <AiOutlineProject size={20} />
+                        <span className='pl-4'>Project</span>
                     </a>
                     <a onClick={handleNav} href='#mail' className='w-[75%] flex justify-center items-center rounded-lg bg-[#7f5af0]  m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200 text-[#fffffe]'>
                         <AiOutlineMail size={20} />
@@ -50,11 +50,11 @@ const Sidenav = () => {
                 <a href='#work' className='rounded-full text-[#fffffe] bg-[#7f5af0]  m-2 p-4 cursor-pointer hover:scale-110 duration-300'>
                     <MdWork />
                 </a>
-                <a href='#mproject' className='rounded-full text-[#fffffe] bg-[#7f5af0]  m-2 p-4 cursor-pointer hover:scale-110 duration-300'>
-                    <AiOutlineProject />
-                </a>
                 <a href='#main' className='rounded-full text-[#fffffe] bg-[#7f5af0]  m-2 p-4 cursor-pointer hover:scale-110 duration-300'>
                     <BsPerson />
+                </a>
+                <a href='#mproject' className='rounded-full text-[#fffffe] bg-[#7f5af0]  m-2 p-4 cursor-pointer hover:scale-110 duration-300'>
+                    <AiOutlineProject />
                 </a>
                 <a href='#mail' className='rounded-full text-[#fffffe] bg-[#7f5af0]  m-2 p-4 cursor-pointer hover:scale-110 duration-300'>
                     <AiOutlineMail />
