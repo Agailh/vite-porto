@@ -9,7 +9,7 @@ const Projects = () => {
   return (
   <div className="w-full h-full bg-[#242629]">
         
-    <div id="mproject" className="max-w-[1040px] m-auto  p-4 py-16">
+    <div id="mproject" className="max-w-[1040px]  m-auto  p-4 py-16">
     <h1 className="text-4xl text-center text-[#fffffe] font-bold" >
         Project
     </h1>

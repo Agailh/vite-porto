@@ -11,11 +11,11 @@ import Vicn from '../assets/vite.svg'
 const Skill = () => {
   return (
     <div id="skills" className="w-full h-full bg-[#242629]">
-        <div className="max-w-[1040px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+        <div className="max-w-[1040px] py-16 mx-auto p-4 flex flex-col justify-center w-full h-full">
         <h1 className="text-4xl font-bold text-center text-[#fffffe]">Skills</h1>
             <div className="lassName='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
             <div className='shadow-md shadow-black hover:scale-110 duration-500 bg-[#16161a]'>
-            <img className='w-20 mx-auto pt-5' src={Phaser} alt='Phaser Icon' />
+            <img className='w-20 mx-auto pt-7' src={Phaser} alt='Phaser Icon' />
             <p className='my-4 text-white'>Phaser</p>
           </div>
           <div className='shadow-md shadow-black bg-[#16161a] hover:scale-110 duration-500'>
@@ -31,8 +31,8 @@ const Skill = () => {
             <p className='my-4 text-white'>Javascript</p>
           </div>
           <div className='shadow-md shadow-black bg-[#16161a] hover:scale-110 duration-500'>
-            <img className='w-20 mx-auto pt-5' src={Tailwind} alt='Tailwind Icon' />
-            <p className='my-4 text-white'>Tailwind</p>
+            <img className='w-20 mx-auto pt-9' src={Tailwind} alt='Tailwind Icon' />
+            <p className='my-4 text-white pt-5'>Tailwind</p>
           </div>
           <div className='shadow-md shadow-black bg-[#16161a] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto pt-5' src={TFL} alt='TFL Icon' />
@@ -44,7 +44,7 @@ const Skill = () => {
           </div>
           <div className='shadow-md shadow-black bg-[#16161a] hover:scale-110 duration-500'>
             <img className='w-20 mx-auto pt-5' src={Vicn} alt='TFL Icon' />
-            <p className='my-4 text-white'>Vite</p>
+            <p className='my-4 text-white'>vite</p>
           </div>
             </div>
         </div>
