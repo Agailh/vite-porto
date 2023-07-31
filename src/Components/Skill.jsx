@@ -1,6 +1,6 @@
 import React from 'react'
 import Phaser from '../assets/phaser.png'
-import HTML from '../assets/HTML5.png'
+import HTML from '../assets/html5.png'
 import CSS from '../assets/css-icon.png'
 import Javascript from '../assets/javascript.png'
 import Tailwind from '../assets/tailwind-css-icon.png'
