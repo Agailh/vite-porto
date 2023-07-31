@@ -24,7 +24,7 @@ const Sidenav = () => {
                         <MdWork size={20} />
                         <span className='pl-4'>Work</span>
                     </a>
-                    <a onClick={handleNav} href='#main' className='w-[75%] flex justify-center items-center rounded-lg bg-[#7f5af0]  m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200 text-[#fffffe]'>
+                    <a onClick={handleNav} href='#skills' className='w-[75%] flex justify-center items-center rounded-lg bg-[#7f5af0]  m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200 text-[#fffffe]'>
                         <AiFillCode size={20} />
                         <span className='pl-4'>Skills</span>
                     </a>
@@ -50,7 +50,7 @@ const Sidenav = () => {
                 <a href='#work' className='rounded-full text-[#fffffe] bg-[#7f5af0]  m-2 p-4 cursor-pointer hover:scale-110 duration-300'>
                     <MdWork />
                 </a>
-                <a href='#main' className='rounded-full text-[#fffffe] bg-[#7f5af0]  m-2 p-4 cursor-pointer hover:scale-110 duration-300'>
+                <a href='#skills' className='rounded-full text-[#fffffe] bg-[#7f5af0]  m-2 p-4 cursor-pointer hover:scale-110 duration-300'>
                     <AiFillCode />
                 </a>
                 <a href='#mproject' className='rounded-full text-[#fffffe] bg-[#7f5af0]  m-2 p-4 cursor-pointer hover:scale-110 duration-300'>
