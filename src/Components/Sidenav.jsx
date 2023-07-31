@@ -1,4 +1,4 @@
-import  { useState } from 'react'
+import  React ,{ useState } from 'react'
 import {AiOutlineHome, AiOutlineMail, AiOutlineMenu, AiOutlineProject, AiFillCode} from "react-icons/ai"
 import {MdWork} from 'react-icons/md'
 

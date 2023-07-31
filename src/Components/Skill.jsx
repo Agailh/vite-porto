@@ -1,4 +1,4 @@
-//import React from 'react'
+import React from 'react'
 import Phaser from '../assets/phaser.png'
 import HTML from '../assets/HTML5.png'
 import CSS from '../assets/css-icon.png'

@@ -1,4 +1,4 @@
-//import React from 'react'
+import React from 'react'
 import Projectitem from "./Projectitem"
 import IMG1 from '../assets/Project1.png';
 import IMG2 from "../assets/Project1.png"
